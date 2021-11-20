@@ -18,7 +18,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <![endif]-->
     <meta charset="utf-8" />
-    <title>jQuery File Upload Demo</title>
+    <title>FCAS_FS - File Upload Server Free</title>
     <meta
       name="description"
       content="File Upload widget with multiple file selection, drag&amp;drop support, progress bars, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads."
@@ -46,7 +46,7 @@
     <!-- blueimp Gallery styles -->
     <link
       rel="stylesheet"
-      href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
+      href="Gallery/css/blueimp-gallery.min.css"
     />
     <!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
     <link rel="stylesheet" href="css/jquery.fileupload.css" />
@@ -61,21 +61,17 @@
   </head>
   <body>
     <div class="container">
-      <ul class="nav nav-tabs" id="navigation">
+      <ul class="nav nav-tabs" id="navigation" style="display:none;">
         <li>
-          <a href="https://github.com/blueimp/jQuery-File-Upload">Project</a>
         </li>
         <li class="active">
-          <a href="#">Demo</a>
         </li>
         <li>
-          <a href="https://github.com/blueimp/jQuery-File-Upload/wiki">Wiki</a>
         </li>
         <li>
-          <a href="https://blueimp.net">Author</a>
         </li>
       </ul>
-      <h1 id="title">jQuery File Upload Demo</h1>
+      <h1 id="title">File Upload</h1>
       <blockquote id="description">
         <p>
           File Upload widget with multiple file selection, drag&amp;drop
@@ -99,7 +95,7 @@
           ><input
             type="hidden"
             name="redirect"
-            value="https://blueimp.github.io/jQuery-File-Upload/"
+            value=""
         /></noscript>
         <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
         <div class="row fileupload-buttonbar">
@@ -151,46 +147,21 @@
       </form>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Demo Notes</h3>
+          <h3 class="panel-title">Notes</h3>
         </div>
         <div class="panel-body">
           <ul>
             <li>
-              The maximum file size for uploads in this demo is
-              <strong>999 KB</strong> (default file size is unlimited).
             </li>
             <li>
-              Only image files (<strong>JPG, GIF, PNG</strong>) are allowed in
-              this demo (by default there is no file type restriction).
             </li>
             <li>
-              Uploaded files will be deleted automatically after
-              <strong>5 minutes or less</strong> (demo files are stored in
-              memory).
             </li>
             <li>
-              You can <strong>drag &amp; drop</strong> files from your desktop
-              on this webpage (see
-              <a
-                href="https://github.com/blueimp/jQuery-File-Upload/wiki/Browser-support"
-                >Browser support</a
-              >).
             </li>
             <li>
-              Please refer to the
-              <a href="https://github.com/blueimp/jQuery-File-Upload"
-                >project website</a
-              >
-              and
-              <a href="https://github.com/blueimp/jQuery-File-Upload/wiki"
-                >documentation</a
-              >
-              for more information.
             </li>
             <li>
-              Built with the
-              <a href="https://getbootstrap.com/">Bootstrap</a> CSS framework
-              and Icons from <a href="https://glyphicons.com/">Glyphicons</a>.
             </li>
           </ul>
         </div>
