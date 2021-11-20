@@ -1,12 +1,5 @@
 /*
- * jQuery File Upload Demo
- * https://github.com/blueimp/jQuery-File-Upload
- *
- * Copyright 2010, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * https://opensource.org/licenses/MIT
+
  */
 
 /* global $ */
@@ -31,7 +24,7 @@ $(function () {
   if (window.location.hostname === 'blueimp.github.io') {
     // Demo settings:
     $('#fileupload').fileupload('option', {
-      url: '//fcasfs-of.github.io/server-free/server/',
+      url: '//fcasfs-of.github.io/',
       // Enable image resizing, except for Android and Opera,
       // which actually support image resizing, but fail to
       // send Blob objects via XHR requests:
